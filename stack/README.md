@@ -110,7 +110,8 @@ A stack and an array are not the same thing.
 **Important:** An array can be used to implement a stack. The stack interface restricts how elements are accessed, while the underlying array provides the storage.
 
 ## Implementation
-- [Array Implementation](implementation/array_stack.cpp)
+- [Array Implementation - Without OOP](implementation/array_stack_without_oop.cpp)
+- [Array Implementation - Using class](implementation/array_stack.cpp)
 
 
 ## Problems
