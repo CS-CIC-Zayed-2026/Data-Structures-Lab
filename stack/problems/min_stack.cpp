@@ -102,7 +102,7 @@ public:
 
 int main() {
 
-    Stack s;
+    MinStack s;
     s.push(1);
     s.push(2);
     cout << s.peek() << endl;

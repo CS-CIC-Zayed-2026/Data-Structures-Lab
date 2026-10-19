@@ -103,6 +103,8 @@ int main() {
     s.push(3);
     s.display();
     cout << "size is : " << s.getSize() << endl;
-
+    s.push(4);
+    s.display();
+    s.push(5);
     return 0;
 }

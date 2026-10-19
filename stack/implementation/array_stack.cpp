@@ -15,7 +15,6 @@
 */
 
 // Headers
-#include <cassert>
 #include <iostream>
 using namespace std;
 
@@ -46,35 +45,28 @@ public:
     }
 
     void push(int value) {
-        /*
         if (isFull()) {
             cout<<"Stack is full"<<endl;
             return;
         }
-        */
-        assert(!isFull());
         arr[++top] = value;
     }
 
     void pop() {
-        /*
         if (isEmpty()) {
             cout<<"Stack is empty"<<endl;
             return;
         }
-        */
-        assert(!isEmpty());
         --top;
     }
 
     int peek() {
-        /*
+
         if (isEmpty()) {
             cout<<"Stack is empty"<<endl;
             return -1;
         }
-        */
-        assert(!isEmpty());
+
         return arr[top];
     }
 
@@ -90,7 +82,7 @@ int main() {
     Stack s(10);
     cout << "Stack is empty: " << s.isEmpty() << endl;
     cout << "Stack is full: " << s.isFull() << endl;
-    // cout << s.peek() << endl;  // will throw error
+    cout << s.peek() << endl;
     s.push(10);
     cout << s.peek() << endl;
     s.push(20);

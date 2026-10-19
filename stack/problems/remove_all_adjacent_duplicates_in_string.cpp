@@ -83,6 +83,9 @@ string solve(string in) {
 }
 
 int main() {
+    cout << solve("aaaa") << endl;
+    cout << solve("aaaaa") << endl;
+    cout << solve("abbaca") << endl;
     cout << solve("azxxzy") << endl;
     return 0;
 }
