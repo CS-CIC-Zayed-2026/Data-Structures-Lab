@@ -12,3 +12,4 @@ add_executable(remove_all_adjacent_duplicates_in_string stack/problems/remove_al
 add_executable(min_stack stack/problems/min_stack.cpp)
 add_executable(array_stack_without_oop stack/implementation/array_stack_without_oop.cpp)
 add_executable(circular_queue queue/Implementation/circular_queue.cpp)
+add_executable(single_linked_list linked_list/single_linked_list.cpp)
